@@ -1,6 +1,6 @@
-import "./FooterStyles.css";
-import { FaHome, FaPhone, FaMailBulk } from "react-icons/fa";
-import React from "react";
+import "./FooterStyles.css"
+import { FaHome, FaPhone, FaMailBulk } from "react-icons/fa"
+import React from "react"
 
 const Footer = () => {
   return (
@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="right"></div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
