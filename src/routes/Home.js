@@ -1,7 +1,7 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-import HeroImg from "../components/HeroImg";
-import Footer from "../components/Footer";
+import React from "react"
+import Navbar from "../components/Navbar"
+import HeroImg from "../components/HeroImg"
+import Footer from "../components/Footer"
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       <HeroImg />
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

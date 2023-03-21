@@ -1,5 +1,5 @@
 import "./FooterStyles.css"
-import { FaHome, FaPhone, FaMailBulk } from "react-icons/fa"
+import { FaHome, FaPhone, FaMailBulk, FaLinkedin } from "react-icons/fa"
 import React from "react"
 
 const Footer = () => {
@@ -35,7 +35,18 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="right"></div>
+        <div className="right">
+          <h4>About Me:</h4>
+          <p>
+            Certified teacher and developer. I am looking for a new career in
+            the tech industry. I enjoy new projects and design challenges.
+          </p>
+          <div className="social"></div>
+          <FaLinkedin
+            size={20}
+            style={{ color: "#fff", marginRight: "2rem" }}
+          />
+        </div>
       </div>
     </div>
   )

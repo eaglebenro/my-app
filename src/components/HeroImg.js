@@ -1,10 +1,7 @@
-import "./HeroImgStyles.css";
-
-import React from "react";
-
-import IntroImg from "../assets/2kwallpaper1717.jpg";
-
-import { Link } from "react-router-dom";
+import "./HeroImgStyles.css"
+import React from "react"
+import IntroImg from "../assets/2kwallpaper1717.jpg"
+import { Link } from "react-router-dom"
 
 const Heroimg = () => {
   return (
@@ -14,7 +11,7 @@ const Heroimg = () => {
       </div>
       <div className="content">
         <p>I'M FOR HIRE AS A</p>
-        <h1>React Developer.</h1>
+        <h1>Full-Stack Developer.</h1>
         <div>
           <Link to="/project" className="btn">
             Projects
@@ -25,7 +22,7 @@ const Heroimg = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Heroimg;
+export default Heroimg
